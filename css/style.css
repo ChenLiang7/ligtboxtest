@@ -1,0 +1,40 @@
+.container{
+	width: 95%;
+	border: 2px solid black;
+	margin:0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+}
+
+.container img{
+	width: 100%;
+}
+
+.item{
+	border: 2px solid black;
+}
+
+.caption{
+	text-align: center;
+	display: grid;
+	color: rgba(47, 0, 255, 0.719);
+}
+
+.controls{
+	padding: 2rem;
+	display:inline-block;
+	margin-left: 31%;
+}
+
+/* .control{
+	padding: 10px 20px;
+	color:rgba(47, 0, 255, 0.719);
+	background: #eeb3c7;
+} */
+
+.control{
+	padding: 10px 20px;
+	color:white;
+	background: black;
+}
